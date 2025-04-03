@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-belt-1{
+    border: 1px solid black;
+    height: 58px;
+    background-color: #0f1111;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.9fr;
+}
+
+.left-div{
+    /* border: 1px solid white; */
+    height: 58px;
+    width: fit-content;
+    padding: 5px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 130px 180px;
+}
+
+.logo{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+#amazon{
+    height: 38px;
+}
+#in{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.location{
+    /* border: 1px solid white; */
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.location-logo{
+    padding: 3px;
+    margin-top: 19px;
+}
+
+.location-logo img{
+    height: 16px;
+}
+
+.location-details{
+    margin-top: 10px;
+}
+
+.location p{
+    font-size: 13px;
+}
+
+.mid-div{
+    /* border: 1px solid white; */
+    height: 58px;
+    padding: 10px;
+}
+
+.inner-mid{
+    /* border: 1px solid white; */
+    height: 40px;
+    display: flex;
+}
+
+#amazon-categories{
+    width: 50px;
+    height: 100%;
+    border-radius: 3px 0 0 3px;
+    border: 0;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    color: rgb(95, 95, 95);
+}
+
+#search-bar{
+    width: 100%;
+    border: 0;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+
+.search-logo{
+    background-color: rgb(255, 184, 103);
+    width: 50px;
+    border-left: 0;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-div{
+    border: 1px solid white;
+    height: 58px;
+    display: grid;
+    grid-template-columns: 80px 130px 100px 91px;
+}
+
+.right-divs{
+    border: 1px solid white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#country{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    width: 40px;
+    text-align: center;
+}
+
+#flag{
+    height: 20px;
+}
+
+#second{
+    flex-direction: column;
+    color: white;
+    font-size: 13px;
+    align-items: start;
+    padding-left: 3px;
+}
+
