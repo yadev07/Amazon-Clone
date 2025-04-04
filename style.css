@@ -4,12 +4,17 @@
     font-family: sans-serif;
 }
 
+body{
+    height: 2000px;
+}
+
 .nav-belt-1{
-    border: 1px solid black;
     height: 60px;
-    background-color: #0f1111;
+    background-color: #14172d;
     display: grid;
-    grid-template-columns: 1.5fr 3fr 1.9fr;
+    grid-template-columns: 1.5fr 3.5fr 1.5fr;
+    position: fixed;
+    z-index: 1000;
 }
 
 .left-div{
@@ -241,4 +246,39 @@
     color: white;
     font-weight: 800;
     margin-top: 15px;
+}
+
+.nav-bar{
+    margin-top: 60px;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    padding: 0px 20px 0px 15px;
+}
+
+.nav-bar-options{
+    border: 1px solid transparent;
+    padding: 2px 10px 2px 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.nav-bar-options a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+#icon{
+    color: white;
+    margin-right: 5px;
+}
+
+.nav-bar-options:hover{
+    border: 2px solid white;
+    border-radius: 2px;
+    padding-bottom: 0px;
 }
