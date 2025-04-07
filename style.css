@@ -487,6 +487,11 @@ body{
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: 1px;
+}
+
+.image img{
+    height: 96%;
 }
 
 .details{
@@ -496,19 +501,55 @@ body{
 }
 
 .price{
+    margin-top: 8px;
     display: flex;
+    color: #232f3e;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
 
 .price sup{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
 }
 
 .price p{
+    color: gray;
     margin-left: 5px;
     font-size: 13px;
     font-weight: 100;
     margin-top: 5px;
 }
+
+.m2-d3 .content{
+    gap: 0;
+}
+
+.change{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    height: 63px;
+    width: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.box img{
+    height: 80%;
+    border-radius: 10px;
+}
+
+.box:hover{
+    border: 3px solid rgb(32, 72, 146);
+}
+
