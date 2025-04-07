@@ -310,10 +310,11 @@ body{
     background-color: transparent;
     border: 0;
     color: white;
+    border: 1px solid white;
 }
 
 #right-btn{
-    margin-left: 1250px;
+    margin-left: 1271px;
 }
 
 #right-btn img{
@@ -330,7 +331,7 @@ body{
     background-size:cover;
     background-position: center;
     /* animation-name: slide;
-    animation-duration: 5s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
     animation-direction:alternate; */
   }
@@ -360,11 +361,22 @@ body{
     background-image: url('images/bg-image7.jpg');
 }
 
+/* @keyframes slide{
+    0% {transform: translateX(0%);}
+    15% {transform: translateX(-100%);}
+    25% {transform: translateX(-200%);}
+    35% {transform: translateX(-300%);}
+    45% {transform: translateX(-400%);}
+    55% {transform: translateX(-500%);}
+} */
+
 .main2{
-    /* border: 1px solid black; */
+    border: 1px solid red;
     color: black;
-    padding: 0px 20px 0px 20px;
-    transform: translateY(-40%);
+    overflow: hidden;
+    margin-left: 20px;
+    margin-right: 20px;
+    transform: translateY(-18%);
 }
 .m2-d1{
     display: grid;
@@ -374,13 +386,14 @@ body{
 
 .div{
     /* border: 1px solid black; */
-    height: 400px;
+    height: 380px;
     padding: 20px 20px 20px 20px;
-    width: 276px;
+    width: 272px;
     background-color: white;
     display: flex;
     flex-direction: column;
 }
+
 
 .img{
     height: max-content;
@@ -390,11 +403,16 @@ body{
     justify-content: center;
 }
 
+#second-pro .img{
+    width: 120px;
+}
+
 .tag{
     font-size: 21px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 27px;
+    display: flex;
 }
 
 .content{
@@ -405,6 +423,9 @@ body{
 
 
 .product-name{
+    display: flex;
+    flex-wrap: wrap;
+    width: 124px;
     padding-top: 3px;
     font-size: 12px;
 }
@@ -422,8 +443,72 @@ body{
 }
 
 .see-more a {
-    
+    font-size: 13px;
     text-decoration: none;
-    color: rgb(0, 132, 255);
+    color: rgb(19, 86, 148);
 }
 
+.m2-d2{
+    margin-top: 20px;
+    height: 270px;
+    padding: 20px;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.scroller{
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 0px 5px 5px 5px;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(180, 180, 180) transparent;
+    
+}
+.scroller:hover{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.scroller-product{
+    /* border: 1px solid red; */
+    width: max-content;
+    flex: 0 0 auto;
+}
+
+.m2-d3{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.details{
+    padding: 0;
+    font-size: 13px;
+    word-spacing: 1px;
+}
+
+.price{
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price sup{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.price p{
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 5px;
+}
