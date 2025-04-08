@@ -371,7 +371,7 @@ body{
 } */
 
 .main2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: black;
     overflow: hidden;
     margin-left: 20px;
@@ -515,9 +515,9 @@ body{
 }
 
 .price p{
-    color: gray;
-    margin-left: 5px;
-    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin-left: 10px;
+    font-size: 12px;
     font-weight: 100;
     margin-top: 5px;
 }
